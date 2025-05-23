@@ -4,7 +4,6 @@ import numpy as np
 def classify_image(img, model):
     """Run classification on a given image.
     """
-
     classes = ['unknown', '10000', '20000', '50000']
     
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
